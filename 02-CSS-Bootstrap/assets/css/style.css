@@ -1,42 +1,64 @@
 #container-page{
-background-color:lightgray;
-}
+    background-color:lightgray;
+    }
+    
+    p{
+        font-size: small;
+    }
+    h3 {
+        margin-top: 20px; margin-bottom: 20px;
+    }
+    
+    #navbarstrip{
+        background-color: #f8f9fa;
+    }
+    
+    #navbar-brand-custom{
+        background-color:#4aaaa5;
+        color: white; 
+    }
+    
+    #containerAboutMe{
+        margin-top: 50px; 
+        margin-bottom: 30px; 
+        background-color: white; 
+    }
+    
+    #imgAboutMe{
+        float: left;
+        margin: 0px 20px 20px 0px;
+        max-width:100%;
+        height: auto;
+        width: 150px;
+    }
+    
+    .imgPortfolio{
+        float: left;
+        margin: 0px 20px 20px 0px;
+        max-width:100%;
 
-p{
-    font-size: small;
-}
-h3 {
-    margin-top: 20px; margin-bottom: 20px;
-}
+    }
 
-#navbarstrip{
-    background-color: #f8f9fa;
-}
+    #headingAboutMe{
+        color:#4aaaa5;
+    }
+    
+    #copyrighttag{
+        text-align: center;
+        color: teal;
+    }
+    
+    #copyrightFooter{
+        height: 40px;
+        background-color: grey;
+    }
+    
+    #footerBorder{
+        height: 6px;
+        background-color: teal;
+    }
 
-#navbar-brand-custom{
-    background-color:#4aaaa5;
-    color: white; 
-}
-
-#container-aboutme{
-    margin-top: 50px; 
-    margin-bottom: 30px; 
-    background-color: white; 
-}
-
-#img-aboutme{
-    float: left;
-    margin: 0px 20px 20px 0px;
-    max-width:100%;
-}
-
-#aboutMe{
-    color:#4aaaa5;
-}
-
-#copyrighttag{
-    text-align: center;
-    color: teal;
-}
-
-
+    #buttonSubmit{
+        margin-bottom:20px; 
+        background-color:#4aaaa5
+    }
