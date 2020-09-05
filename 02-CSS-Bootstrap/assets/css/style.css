@@ -1,0 +1,42 @@
+#container-page{
+background-color:lightgray;
+}
+
+p{
+    font-size: small;
+}
+h3 {
+    margin-top: 20px; margin-bottom: 20px;
+}
+
+#navbarstrip{
+    background-color: #f8f9fa;
+}
+
+#navbar-brand-custom{
+    background-color:#4aaaa5;
+    color: white; 
+}
+
+#container-aboutme{
+    margin-top: 50px; 
+    margin-bottom: 30px; 
+    background-color: white; 
+}
+
+#img-aboutme{
+    float: left;
+    margin: 0px 20px 20px 0px;
+    max-width:100%;
+}
+
+#aboutMe{
+    color:#4aaaa5;
+}
+
+#copyrighttag{
+    text-align: center;
+    color: teal;
+}
+
+
