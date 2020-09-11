@@ -107,8 +107,13 @@ do {
 
 function generatePassword() {
   var generatedPassword = "";
+  // Run through loop for number in length of password
   for (var i = 0; i < passwordLength; i++) {
+    // Create a random number relating to number of citerias in array
     var num = Math.floor(Math.random() * arrayOfCriteria.length);
+    // For each random created, check if it relates to criteria in array
+    // If matchinmg a criteria type, then generate random number of character within that criteria's array
+    // Then add that character to the generated password 
     if (arrayOfCriteria[num] === "lower") {
       var idOfLowerCaseArray = Math.floor(Math.random() * alphabetCharacters.length);
       generatedPassword += alphabetCharacters[idOfLowerCaseArray].toLowerCase();
